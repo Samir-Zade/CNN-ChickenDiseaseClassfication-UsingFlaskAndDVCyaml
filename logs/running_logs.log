@@ -1,1 +1,88 @@
 [2024-08-01 18:43:08,342: INFO: main: welcome to my custom log]
+[2024-08-02 12:48:10,537: INFO: main: welcome to my custom log]
+[2024-08-02 14:53:38,874: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 14:55:17,868: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 14:59:47,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:05:10,491: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:09:08,993: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:09:09,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-02 15:09:09,052: INFO: common: Created directory at: artifacts]
+[2024-08-02 15:09:09,063: INFO: common: Created directory at: artifacts/data_ingestion]
+[2024-08-02 15:12:59,290: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:12:59,293: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-02 15:12:59,295: INFO: common: Created directory at: artifacts]
+[2024-08-02 15:12:59,297: INFO: common: Created directory at: artifacts/data_ingestion]
+[2024-08-02 15:17:01,240: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:17:01,243: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-02 15:17:01,246: INFO: common: Created directory at: artifacts]
+[2024-08-02 15:17:01,247: INFO: common: Created directory at: artifacts/data_ingestion]
+[2024-08-02 15:22:07,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:22:07,753: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-02 15:22:07,756: INFO: common: Created directory at: artifacts]
+[2024-08-02 15:22:07,758: INFO: common: Created directory at: artifacts/data_ingestion]
+[2024-08-02 15:30:51,653: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 15:30:51,656: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-02 15:30:51,657: INFO: common: created directory at: artifacts]
+[2024-08-02 15:30:51,659: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-02 15:31:00,456: INFO: 1645260119: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A34:1F942E:346746:3D3BB5:66ACAEC2
+Accept-Ranges: bytes
+Date: Fri, 02 Aug 2024 10:02:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4729-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1722592966.802912,VS0,VE851
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5cfbce0488d2eb16abac0ab21660f9d5919d0249
+Expires: Fri, 02 Aug 2024 10:07:46 GMT
+Source-Age: 0
+
+]
+[2024-08-02 16:01:12,878: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-08-02 16:01:12,880: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-02 16:01:12,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-02 16:01:12,881: INFO: common: created directory at: artifacts]
+[2024-08-02 16:01:12,882: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-02 16:01:36,990: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4A34:1F942E:346746:3D3BB5:66ACAEC2
+Accept-Ranges: bytes
+Date: Fri, 02 Aug 2024 10:33:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4731-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1722594786.310642,VS0,VE339
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 26f4abe855da2e13de696550a6bb8ea48274feb1
+Expires: Fri, 02 Aug 2024 10:38:06 GMT
+Source-Age: 0
+
+]
+[2024-08-02 16:01:38,755: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

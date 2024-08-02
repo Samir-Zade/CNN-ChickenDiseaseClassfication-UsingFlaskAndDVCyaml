@@ -1,0 +1,8 @@
+Entity: 
+means return type of function
+ex. ConfigBox in common.py
+
+constants folder:
+code of data which are not changing lots of time
+it is constant for whole project those are present into constant folder
+

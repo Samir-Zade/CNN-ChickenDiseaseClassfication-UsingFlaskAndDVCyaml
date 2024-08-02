@@ -1,0 +1,9 @@
+#config.yaml created to resolve the repeatation of code more time.
+#just change code in it and it will replicate to whole project/environment.
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Samir-Zade/DataSetsFiles/raw/main/Chicken-fecal-images.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
