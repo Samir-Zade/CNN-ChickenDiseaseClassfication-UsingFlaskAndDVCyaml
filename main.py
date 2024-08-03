@@ -2,6 +2,7 @@ from src.cnnClassifier import logger
 from src.cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.cnnClassifier.pipeline.stage_03_training import ModelTrainingPipeline
+from src.cnnClassifier.pipeline.stage_04_evalution import EvaluationPipeline 
 
 
 # Define the name of the stage we are currently working on. This will help in logging and debugging purposes.
@@ -40,3 +41,15 @@ except Exception as e:
         logger.exception(e)
         raise e
 
+#evaluting the accuracies and loss
+STAGE_NAME = "Evaluation stage"
+try:
+    logger.info(f"*******************")
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    model_evalution = EvaluationPipeline()
+    model_evalution.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+
+except Exception as e:
+        logger.exception(e)
+        raise e
