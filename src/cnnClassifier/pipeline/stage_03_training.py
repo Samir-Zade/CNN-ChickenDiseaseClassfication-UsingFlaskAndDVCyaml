@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Add the project root directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.prepare_callbacks import PrepareCallback
 from src.cnnClassifier.components.training import Training

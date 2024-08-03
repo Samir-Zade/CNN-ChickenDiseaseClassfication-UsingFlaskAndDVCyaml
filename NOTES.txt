@@ -6,3 +6,8 @@ constants folder:
 code of data which are not changing lots of time
 it is constant for whole project those are present into constant folder
 
+DVC:
+You can configure machine learning projects in one or more dvc.yaml files. 
+The list of stages is typically the most important part of a dvc. yaml file, 
+though the file can also be used to configure artifacts , metrics , params , and plots , 
+either as part of a stage definition or on their own.
